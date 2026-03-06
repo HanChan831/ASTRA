@@ -75,7 +75,7 @@ CUDA_VISIBLE_DEVICES=0 python ./extract_act/extracting_activations_qwen_jb.py
 
 To obtain the calibration activations (e.g., for Qwen2-VL), run the following commands:
 ```bash
-CUDA_VISIBLE_DEVICES=0 python ./extract_act/extracting_activations_qwen_ref.py
+CUDA_VISIBLE_DEVICES=0 python ./extract_ref/extracting_activations_qwen_ref.py
 ```
 
 ### Activations
